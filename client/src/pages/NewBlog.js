@@ -7,7 +7,7 @@ import { Button, Error, FormField, Input, Label, Textarea } from "../styles";
 function NewBlog({ user }) {
   const [title, setTitle] = useState("My Awesome Blog");
   const [minutesToComplete, setMinutesToComplete] = useState("30");
-  const [instructions, setInstructions] = useState(``);
+  const [instructions, setInstructions] = useState(`  `);
   const [errors, setErrors] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const history = useHistory();
